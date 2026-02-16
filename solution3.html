@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solution On Tap</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    line-height:1.6;
+}
+
+header{
+    background:#0d47a1;
+    color:white;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h1{
+    font-size:24px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+.hero{
+    background:#1976d2;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h2{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:18px;
+    max-width:800px;
+    margin:auto;
+}
+
+section{
+    padding:60px 40px;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:28px;
+    color:#0d47a1;
+}
+
+.category{
+    margin-bottom:50px;
+}
+
+.category h3{
+    color:#1976d2;
+    margin-bottom:15px;
+}
+
+.services{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.services span{
+    background:#f4f4f4;
+    padding:8px 15px;
+    border-radius:20px;
+    font-size:14px;
+}
+
+footer{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+    .hero h2{
+        font-size:28px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Solution On Tap</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h2>Welcome to Solution On Tap</h2>
+    <p>Platform to connect customers directly with verified service providers across India. Reliable, professional, and on-demand solutions for homes and businesses.</p>
+</div>
+
+<section id="services">
+    <h2 class="section-title">Our Service Categories</h2>
+
+    <div class="category">
+        <h3>🔧 Home Repair & Maintenance</h3>
+        <div class="services">
+            <span>Electrician</span><span>Plumber</span><span>Carpenter</span>
+            <span>Mason</span><span>Handyman</span><span>Welder</span>
+            <span>POP Work</span><span>Door/Window Repair</span>
+        </div>
+    </div>
+
+    <div class="category">
+        <h3>🧰 Appliance Repair & Installation</h3>
+        <div class="services">
+            <span>AC Service</span><span>Refrigerator</span>
+            <span>Washing Machine</span><span>Microwave</span>
+            <span>TV Installation</span><span>Geyser</span>
+            <span>Chimney</span><span>RO Service</span>
+        </div>
+    </div>
+
+    <div class="category">
+        <h3>🎨 Home Improvement</h3>
+        <div class="services">
+            <span>Painter</span><span>Interior Contractor</span>
+            <span>Modular Kitchen</span><span>False Ceiling</span>
+            <span>Flooring</span><span>Wallpaper</span>
+            <span>Glass Work</span>
+        </div>
+    </div>
+
+    <div class="category">
+        <h3>🧹 Cleaning & Pest Control</h3>
+        <div class="services">
+            <span>Deep Cleaning</span><span>Bathroom Cleaning</span>
+            <span>Kitchen Cleaning</span><span>Sofa Cleaning</span>
+            <span>Water Tank Cleaning</span><span>Pest Control</span>
+            <span>Termite Treatment</span>
+        </div>
+    </div>
+
+    <div class="category">
+        <h3>🚚 Moving & Logistics</h3>
+        <div class="services">
+            <span>Packers & Movers</span><span>Bike Shifting</span>
+            <span>Car Transport</span><span>Loading/Unloading</span>
+            <span>Storage</span>
+        </div>
+    </div>
+
+    <div class="category">
+        <h3>🌳 Outdoor & Utility</h3>
+        <div class="services">
+            <span>Gardening</span><span>Borewell</span>
+            <span>Electric Wiring</span><span>Solar Panel</span>
+            <span>Inverter</span>
+        </div>
+    </div>
+
+    <div class="category">
+        <h3>👷 Construction & Labour</h3>
+        <div class="services">
+            <span>Daily Labour</span><span>Site Supervisor</span>
+            <span>Fabrication</span><span>Scaffolding</span>
+            <span>Demolition</span>
+        </div>
+    </div>
+
+    <div class="category">
+        <h3>🏢 Business & Commercial Services</h3>
+        <div class="services">
+            <span>Office Maintenance</span><span>CCTV Installation</span>
+            <span>Fire Safety</span><span>Network Cabling</span>
+            <span>Commercial Cleaning</span>
+        </div>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <p style="text-align:center;">Email: info@solutionontap.com</p>
+    <p style="text-align:center;">Phone: +91 XXXXX XXXXX</p>
+</section>
+
+<footer>
+    © 2026 Solution On Tap | Connecting India to Trusted Services
+</footer>
+
+</body>
+</html>
+<section id="request" style="padding:60px; text-align:center;">
+    <h2>Service Request Form</h2>
+
+    <form action="https://formsubmit.co/your-email@gmail.com" method="POST" style="max-width:400px; margin:auto;">
+        
+        <input type="text" name="name" placeholder="Your Name" required 
+        style="width:100%; padding:10px; margin:10px 0;"><br>
+
+        <input type="email" name="email" placeholder="Your Email" required 
+        style="width:100%; padding:10px; margin:10px 0;"><br>
+
+        <input type="text" name="service" placeholder="Service Required" required 
+        style="width:100%; padding:10px; margin:10px 0;"><br>
+
+        <textarea name="message" placeholder="Describe your issue" required 
+        style="width:100%; padding:10px; margin:10px 0;"></textarea><br>
+
+        <button type="submit" 
+        style="padding:10px 20px; background:#1976d2; color:white; border:none;">
+        Submit Request
+        </button>
+    </form>
+</section>
+
